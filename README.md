@@ -1,89 +1,53 @@
-# STAC Extensions
+# STAC Packages
 
-The [stac-extensions](https://github.com/stac-extensions/) github organization is a home for extensions to the
-[SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) specification.
+The [stac-packages](https://github.com/stac-packages/) github organization is a home for datasets and tool packages using the
+[SpatioTemporal Asset Catalog (STAC)](https://github.com/radiantearth/stac-spec).
 
 To learn about STAC and Extensions start with the [extensions](https://github.com/radiantearth/stac-spec/tree/master/extensions)
 section of the core specification. It explains how extensions work, lists all the known extensions, and has
 instructions for how to go about '[extending STAC](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#extending-stac)'.
 
-The [stac-extensions](https://github.com/stac-extensions/) github organization is a home for many of the leading 'community extensions',
-providing a neutral home for collaboration. Many of these used to be in the core [stac-spec
-repository]((https://github.com/radiantearth/stac-spec)), but were removed for 1.0.0 so they could evolve at their
-own pace, instead of having to follow the core STAC release cycle.
+## Adding a new Package
 
-## List of STAC Extensions
+Clone the [template repository](https://github.com/stactools-packages/template) as your package name, e.g. `landsat`.
+This name should be short, memorable, and a valid Python package name.
+It can, however, include a hyphen, in which case the name for Python imports will be the underscored version, e.g. `landsat-8` goes to `stactools.landsat_8`.
+Your name will be used on PyPI to publish the package in the stactools namespace, e.g. `stactools-landsat`.
 
-The definitive list of STAC Extensions is in the core spec repository, in the [Extensions 
-README](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md). This includes the official core
-extensions, as well as a complete list of 'community' extensions. A subset of the community extensions use this 
-stac-extensions GitHub organization, and those are listed in the next section.
 
-### Extensions in stac-extensions organization
+## List of STAC Packages
 
-These extensions add new fields or semantics to STAC objects.
+The definitive list of STAC Packages are the repos in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-| Extension Title                                              | Field Name Prefix | Scope                     | Maturity   | Published? | Description                                                  |
-| ------------------------------------------------------------ | ----------------- | ------------------------- | ---------- | ---------- | ------------------------------------------------------------ |
-| [CARD4L](https://github.com/stac-extensions/card4l)          | card4l.           | Item                      | *Proposal* | No         | How to comply to the CEOS CARD4L product family specifications (Optical and SAR) |
-| [Data Cube](https://github.com/stac-extensions/datacube)     | cube              | Item, Collection          | *Proposal* | Yes        | Data Cube related metadata, especially to describe their dimensions. |
-| [Electro-Optical](https://github.com/stac-extensions/eo)     | eo                | Item, Collection          | Stable     | Yes        | Covers electro-optical data that represents a snapshot of the Earth for a single date and time. It could consist of multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. The extension provides common fields like bands, cloud cover, gsd and more. |
-| [File Info](https://github.com/stac-extensions/file)         | file              | Item, Collection          | *Proposal* | Yes        | Provides a way to specify file details such as size, data type and checksum for assets in Items and Collections. |
-| [Item Asset Definition](https://github.com/stac-extensions/item-assets) | -                 | Collection                | *Proposal* | Yes        | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
-| [Label](https://github.com/stac-extensions/label)            | label             | Item, Collection          | *Proposal* | Yes        | Items that relate labeled AOIs with source imagery           |
-| [ML AOI](https://github.com/stac-extensions/ml-aoi)           | ml-aoi            | Item, Collection          | **WIP**    | **No**     | An Item and Collection extension to provide labeled training data for machine learning models. |
-| [MGRS](https://github.com/stac-extensions/mgrs)              | mgrs              | Item, Collection          | **WIP**    | **No**     |                                                              |
-| [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc                | Item, Collection          | *Proposal* | Yes        | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
-| [Processing](https://github.com/stac-extensions/processing)  | processing        | Item, Collection          | *Proposal* | Yes        | Indicates from which processing chain data originates and how the data itself has been produced. |
-| [Projection](https://github.com/stac-extensions/projection)  | proj              | Item, Collection          | Stable     | Yes        | Provides a way to describe Items whose assets are in a geospatial projection. |
-| [Raster](https://github.com/stac-extensions/raster)          | raster            | Item, Collection          | *Proposal*    | Yes     | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
-| [SAR](https://github.com/stac-extensions/sar)                | sar               | Item, Collection          | *Proposal* | Yes        | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
-| [Satellite](https://github.com/stac-extensions/sat)          | sat               | Item, Collection          | *Proposal* | Yes        | Satellite related metadata for data collected from satellites. |
-| [Scientific Citation](https://github.com/stac-extensions/scientific) | sci               | Item, Collection          | Stable     | Yes        | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
-| [Single File STAC](https://github.com/stac-extensions/single-file-stac) | -                 | Catalog                   | *Proposal* | **No**     | An extension to provide a set of Collections and Items within a single file STAC. |
-| [Storage](https://github.com/stac-extensions/storage)        | storage           | Item, Collection          | **WIP**    | **No**     | Provides additional fields relating to how the asset is stored. |
-| [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles             | Item, Catalog, Collection | *Proposal* | **No**     | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
-| [Timestamps](https://github.com/stac-extensions/timestamps)  | -                 | Item, Collection          | *Proposal* | Yes        | Allows to specify numerous timestamps for assets and metadata. |
-| [Versioning Indicators](https://github.com/stac-extensions/version) | -                 | Item, Collection          | *Proposal* | Yes        | Provides fields and link relation types to provide a version and indicate deprecation. |
-| [View Geometry](https://github.com/stac-extensions/view)     | view              | Item, Collection          | Stable     | Yes        | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data |
-| [Virtual Assets](https://github.com/stac-extensions/virtual-assets)     | virtual              | Item, Collection          | **WIP**    | **No**      | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
+Last Updated: Aug 03 05:35  2021 UTC.
 
-## Extension Maturity
-
-Extensions in this directory are meant to evolve to maturity, and thus may be in different states
-in terms of stability and number of implementations. All extensions included must include a
-maturity classification, so that STAC spec users can easily get a sense of how much they can count
-on the extension.
-
-| Maturity Classification |  Min Impl # | Description | Stability |
-| ----------------------- | ----------- | ----------- | --------- |
-| Proposal                | 0           | An idea put forward by a community member to gather feedback | Not stable - breaking changes almost guaranteed as implementers try out the idea. |
-| Pilot                   | 1           | Idea is fleshed out, with examples and a JSON schema, and implemented in one or more catalogs. Additional implementations encouraged to help give feedback | Approaching stability - breaking changes are not anticipated but can easily come from additional feedback |
-| Candidate               | 3           | A number of implementers are using it and are standing behind it as a solid extension. Can generally count on an extension at this maturity level | Mostly stable, breaking changes require a new version and minor changes are unlikely. The extension has a [code owner](../.github/CODEOWNERS). |
-| Stable                  | 6           | Highest current level of maturity. The community of extension maintainers commits to a STAC review process for any changes, which are not made lightly. | Completely stable, all changes require a new version number and review process. |
-| Deprecated              | N/A         | A previous extension that has likely been superseded by a newer one or did not work out for some reason. | DO NOT USE, is not supported |
-
-Maturity mostly comes through diverse implementations, so the minimum number of implementations
-column is the main gating function for an extension to mature. But extension authors can also
-choose to hold back the maturity advancement if they don't feel they are yet ready to commit to
-the less breaking changes of the next level.
-
-A 'mature' classification level will likely be added once there are extensions that have been
-stable for over a year and are used in twenty or more implementations.
-
-## Adding a new extension
-
-### Using the stac-extensions template
-
-TODO: Overview of using the template.
-
-Step-by-step (add an image or two)
-
-* Request to become a member of stac-extensions if you want to it to have that visibility, or put in your personal or org's repo
-* Go to [template repo](https://github.com/stac-extensions/template) and hit the green 'Use this template' button.
-* Be sure to pick the right place to create it.
-* Description - briefly describe it
-* click 'copy all branches' for the CI to write correctly.
-* Title your table properly - likely is just item properties or collection fields, though some are both. But make your heading clear.
-* Schemas - start with the templates, and add in your properties.
-* In 'settings' turn on github pages (unless we find a way to do this automatically) - probaby add a picture for this.
+| Package | Description |
+| :------ | :---------- |
+   [aafc-landuse](https://github.com/stactools-packages/aafc-landuse)|None|[docs](|None)
+   [alos-dem](https://github.com/stactools-packages/alos-dem)|stactools package for working with the ALOS Global Digital Surface Model|[docs](|stactools package for working with the ALOS Global Digital Surface Model)
+   [aster](https://github.com/stactools-packages/aster)|None|[docs](|None)
+   [browse](https://github.com/stactools-packages/browse)|stactools package for opening a STAC catalog with stac-browser|[docs](|stactools package for opening a STAC catalog with stac-browser)
+   [cgls_lc100](https://github.com/stactools-packages/cgls_lc100)|stactools package for working with Copernicus Global Land Cover Layers data.|[docs](|stactools package for working with Copernicus Global Land Cover Layers data.)
+   [cop-dem](https://github.com/stactools-packages/cop-dem)|stactools package for working with Copernicus DEM data|[docs](|stactools package for working with Copernicus DEM data)
+   [corine](https://github.com/stactools-packages/corine)|stactools package for working with CORINE data.|[docs](|stactools package for working with CORINE data.)
+   [ga-dlcd](https://github.com/stactools-packages/ga-dlcd)|None|[docs](|None)
+   [ga-nlcd](https://github.com/stactools-packages/ga-nlcd)|None|[docs](|None)
+   [gap](https://github.com/stactools-packages/gap)|stactools package for working with USGS Gap Analysis Project (GAP) data|[docs](|stactools package for working with USGS Gap Analysis Project (GAP) data)
+   [goes](https://github.com/stactools-packages/goes)|stactools package for working with NOAA's GOES data|[docs](|stactools package for working with NOAA's GOES data)
+   [gpw](https://github.com/stactools-packages/gpw)|stactools package for handling the Gridded Population of the World dataset|[docs](|stactools package for handling the Gridded Population of the World dataset)
+   [jrc-gsw](https://github.com/stactools-packages/jrc-gsw)|None|[docs](|None)
+   [landsat](https://github.com/stactools-packages/landsat)|stactools package for working with LANDSAT data|[docs](|stactools package for working with LANDSAT data)
+   [lila-hkh-glacier](https://github.com/stactools-packages/lila-hkh-glacier)|None|[docs](|None)
+   [modis](https://github.com/stactools-packages/modis)|stactools package for working with MODIS data|[docs](|stactools package for working with MODIS data)
+   [naip](https://github.com/stactools-packages/naip)|stactools package for working with the USDA's National Airborne Imagery Program data|[docs](|stactools package for working with the USDA's National Airborne Imagery Program data)
+   [nalcms](https://github.com/stactools-packages/nalcms)|None|[docs](|None)
+   [nrcan-landcover](https://github.com/stactools-packages/nrcan-landcover)|Collection of Land Cover products for Canada as produced by NRCan|[docs](|Collection of Land Cover products for Canada as produced by NRCan)
+   [planet](https://github.com/stactools-packages/planet)|stactools package for working with Planet data|[docs](|stactools package for working with Planet data)
+   [pointcloud](https://github.com/stactools-packages/pointcloud)|stactools package for working with pointcloud files|[docs](|stactools package for working with pointcloud files)
+   [seabed-2030](https://github.com/stactools-packages/seabed-2030)|None|[docs](|None)
+   [sentinel1](https://github.com/stactools-packages/sentinel1)|stactools package for working with sentinel1 data|[docs](|stactools package for working with sentinel1 data)
+   [sentinel2](https://github.com/stactools-packages/sentinel2)|stactools package for Sentinel-2|[docs](|stactools package for Sentinel-2)
+   [spot](https://github.com/stactools-packages/spot)|stactools package for working with SPOT data|[docs](|stactools package for working with SPOT data)
+   [template](https://github.com/stactools-packages/template)|Template repository for stactools packages|[docs](|Template repository for stactools packages)
+   [threedep](https://github.com/stactools-packages/threedep)|stactools package for working with elevation data from the USGS 3DEP program (formerly known as NED)|[docs](|stactools package for working with elevation data from the USGS 3DEP program (formerly known as NED))
+   [worldclim](https://github.com/stactools-packages/worldclim)|None|[docs](|None)

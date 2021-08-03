@@ -1,2 +1,2 @@
 requests
-jinja
+jinja2

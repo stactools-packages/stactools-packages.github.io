@@ -1,7 +1,11 @@
+from os import error
 from pathlib import Path
 import requests
 from datetime import datetime
 from jinja2 import Template
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 def get_repos() -> list:
@@ -10,18 +14,23 @@ def get_repos() -> list:
     Returns:
         list: List of dictionaries containing repos.
     """
-    with requests.get("https://api.github.com/users/stactools-packages/repos") as site:
-        data = site.json()
+    try:
+        with requests.get(
+                "https://api.github.com/users/stactools-packages/repos"
+        ) as site:
+            data = site.json()
+    except error as e:
+        logger.error(f"Requests could not complete. {e}")
 
     return data
 
 
-def main() -> str:
+def main() -> bool:
     """Create a readme markdown document and populate the Repo table
     from the stactools-package Github Organizations.
 
     Returns:
-        str: Markdown document
+        bool: True if it worked
     """
     data = get_repos()
     now = datetime.utcnow().strftime("%b %d %H:%M %Z %Y")

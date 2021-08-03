@@ -1,11 +1,9 @@
 # STAC Packages
 
 The [stac-packages](https://github.com/stac-packages/) github organization is a home for datasets and tool packages using the
-[SpatioTemporal Asset Catalog (STAC)](https://github.com/radiantearth/stac-spec).
+[SpatioTemporal Asset Catalog (STAC)](https://github.com/radiantearth/stac-spec) specification.
 
-To learn about STAC and Extensions start with the [extensions](https://github.com/radiantearth/stac-spec/tree/master/extensions)
-section of the core specification. It explains how extensions work, lists all the known extensions, and has
-instructions for how to go about '[extending STAC](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#extending-stac)'.
+Please use the template described below to add your data and tools.
 
 ## Adding a new Package
 
@@ -14,15 +12,20 @@ This name should be short, memorable, and a valid Python package name.
 It can include a hyphen, in which case the name for Python imports will be the underscored version, e.g. `landsat-8` goes to `stactools.landsat_8`.
 Your name will be used on PyPI to publish the package in the stactools namespace, e.g. `stactools-landsat`.
 
+To learn about how to create a STAC, first read the [Best Practices document](https://github.com/radiantearth/stac-spec/blob/master/best-practices.md#stac-best-practices) 
+to get a sense of what has emerged from other people using the specification. 
+
+
+[STAC extensions](https://github.com/stac-extensions/) may have additional methods to describe your data and are **STRONGLY** encouraged.
 
 ## List of STAC Packages
 
-The definitive list of STAC Packages are the repos in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
+The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
 Last Updated: {{updated_time}} UTC.
 
 | Package | Description |
 | :------ | :---------- |
 {%- for p in packages %}
-   [{{p.name}}]({{p.html_url}})|{{p.description}}|[docs](|{{p.description}})
+   [{{p.name}}]({{p.html_url}})|{{p.description}}
 {%- endfor -%}

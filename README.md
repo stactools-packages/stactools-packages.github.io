@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Aug 03 05:43  2021 UTC.
+Last Updated: Aug 03 19:33  2021 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -51,6 +51,7 @@ Last Updated: Aug 03 05:43  2021 UTC.
    [sentinel1](https://github.com/stactools-packages/sentinel1)|stactools package for working with sentinel1 data
    [sentinel2](https://github.com/stactools-packages/sentinel2)|stactools package for Sentinel-2
    [spot](https://github.com/stactools-packages/spot)|stactools package for working with SPOT data
+   [stactools-packages.github.io](https://github.com/stactools-packages/stactools-packages.github.io)|None
    [template](https://github.com/stactools-packages/template)|Template repository for stactools packages
    [threedep](https://github.com/stactools-packages/threedep)|stactools package for working with elevation data from the USGS 3DEP program (formerly known as NED)
    [worldclim](https://github.com/stactools-packages/worldclim)|None

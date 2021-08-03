@@ -1,6 +1,6 @@
 # STAC Packages
 
-The [stac-packages](https://github.com/stac-packages/) github organization is a home for datasets and tool packages using the
+The [stactools-packages](https://github.com/stactools-packages/) github organization is a home for datasets and tool packages using the
 [SpatioTemporal Asset Catalog (STAC)](https://github.com/radiantearth/stac-spec) specification.
 
 Please use the template described below to add your data and tools.
@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Aug 03 19:33  2021 UTC.
+Last Updated: Aug 03 22:25  2021 UTC.
 
 | Package | Description |
 | :------ | :---------- |

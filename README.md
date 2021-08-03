@@ -11,7 +11,7 @@ instructions for how to go about '[extending STAC](https://github.com/radiantear
 
 Clone the [template repository](https://github.com/stactools-packages/template) as your package name, e.g. `landsat`.
 This name should be short, memorable, and a valid Python package name.
-It can, however, include a hyphen, in which case the name for Python imports will be the underscored version, e.g. `landsat-8` goes to `stactools.landsat_8`.
+It can include a hyphen, in which case the name for Python imports will be the underscored version, e.g. `landsat-8` goes to `stactools.landsat_8`.
 Your name will be used on PyPI to publish the package in the stactools namespace, e.g. `stactools-landsat`.
 
 
@@ -19,7 +19,7 @@ Your name will be used on PyPI to publish the package in the stactools namespace
 
 The definitive list of STAC Packages are the repos in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Aug 03 05:35  2021 UTC.
+Last Updated: Aug 03 05:43  2021 UTC.
 
 | Package | Description |
 | :------ | :---------- |

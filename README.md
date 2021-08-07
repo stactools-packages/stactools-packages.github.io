@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Aug 06 00:28  2021 UTC.
+Last Updated: Aug 07 00:25  2021 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -45,6 +45,7 @@ Last Updated: Aug 06 00:28  2021 UTC.
    [naip](https://github.com/stactools-packages/naip)|stactools package for working with the USDA's National Airborne Imagery Program data
    [nalcms](https://github.com/stactools-packages/nalcms)|None
    [nrcan-landcover](https://github.com/stactools-packages/nrcan-landcover)|Collection of Land Cover products for Canada as produced by NRCan
+   [nrcan-radarsat1](https://github.com/stactools-packages/nrcan-radarsat1)|None
    [planet](https://github.com/stactools-packages/planet)|stactools package for working with Planet data
    [pointcloud](https://github.com/stactools-packages/pointcloud)|stactools package for working with pointcloud files
    [seabed-2030](https://github.com/stactools-packages/seabed-2030)|None

@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Aug 10 00:28  2021 UTC.
+Last Updated: Aug 11 00:32  2021 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -34,7 +34,6 @@ Last Updated: Aug 10 00:28  2021 UTC.
    [cop-dem](https://github.com/stactools-packages/cop-dem)|stactools package for working with Copernicus DEM data
    [corine](https://github.com/stactools-packages/corine)|stactools package for working with CORINE data.
    [ga-dlcd](https://github.com/stactools-packages/ga-dlcd)|None
-   [ga-nlcd](https://github.com/stactools-packages/ga-nlcd)|None
    [gap](https://github.com/stactools-packages/gap)|stactools package for working with USGS Gap Analysis Project (GAP) data
    [goes](https://github.com/stactools-packages/goes)|stactools package for working with NOAA's GOES data
    [gpw](https://github.com/stactools-packages/gpw)|stactools package for handling the Gridded Population of the World dataset
@@ -44,6 +43,7 @@ Last Updated: Aug 10 00:28  2021 UTC.
    [modis](https://github.com/stactools-packages/modis)|stactools package for working with MODIS data
    [naip](https://github.com/stactools-packages/naip)|stactools package for working with the USDA's National Airborne Imagery Program data
    [nalcms](https://github.com/stactools-packages/nalcms)|None
+   [noaa-sst](https://github.com/stactools-packages/noaa-sst)|None
    [nrcan-landcover](https://github.com/stactools-packages/nrcan-landcover)|Collection of Land Cover products for Canada as produced by NRCan
    [nrcan-radarsat1](https://github.com/stactools-packages/nrcan-radarsat1)|None
    [planet](https://github.com/stactools-packages/planet)|stactools package for working with Planet data

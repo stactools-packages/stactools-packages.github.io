@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Sep 08 00:27  2021 UTC.
+Last Updated: Sep 09 00:29  2021 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -43,6 +43,7 @@ Last Updated: Sep 08 00:27  2021 UTC.
    [modis](https://github.com/stactools-packages/modis)|stactools package for working with MODIS data
    [naip](https://github.com/stactools-packages/naip)|stactools package for working with the USDA's National Airborne Imagery Program data
    [nalcms](https://github.com/stactools-packages/nalcms)|None
+   [noaa-c-cap](https://github.com/stactools-packages/noaa-c-cap)|Create STAC Items and Collections for NOAA's Coastal Change Analysis Program (C-CAP)
    [noaa-sst](https://github.com/stactools-packages/noaa-sst)|None
    [nrcan-landcover](https://github.com/stactools-packages/nrcan-landcover)|Collection of Land Cover products for Canada as produced by NRCan
    [nrcan-radarsat1](https://github.com/stactools-packages/nrcan-radarsat1)|None
@@ -55,4 +56,3 @@ Last Updated: Sep 08 00:27  2021 UTC.
    [sentinel2](https://github.com/stactools-packages/sentinel2)|stactools package for Sentinel-2
    [stactools-packages.github.io](https://github.com/stactools-packages/stactools-packages.github.io)|None
    [template](https://github.com/stactools-packages/template)|Template repository for stactools packages
-   [threedep](https://github.com/stactools-packages/threedep)|stactools package for working with elevation data from the USGS 3DEP program (formerly known as NED)

@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Sep 09 00:29  2021 UTC.
+Last Updated: Sep 10 00:31  2021 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -54,5 +54,5 @@ Last Updated: Sep 09 00:29  2021 UTC.
    [sentinel1](https://github.com/stactools-packages/sentinel1)|stactools package for working with sentinel1 data
    [sentinel1-grd](https://github.com/stactools-packages/sentinel1-grd)|None
    [sentinel2](https://github.com/stactools-packages/sentinel2)|stactools package for Sentinel-2
+   [sentinel3](https://github.com/stactools-packages/sentinel3)|None
    [stactools-packages.github.io](https://github.com/stactools-packages/stactools-packages.github.io)|None
-   [template](https://github.com/stactools-packages/template)|Template repository for stactools packages

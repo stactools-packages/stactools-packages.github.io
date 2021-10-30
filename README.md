@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Oct 29 00:28  2021 UTC.
+Last Updated: Oct 30 00:29  2021 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -36,6 +36,7 @@ Last Updated: Oct 29 00:28  2021 UTC.
    [corine](https://github.com/stactools-packages/corine)|stactools package for working with CORINE data.
    [ga-dlcd](https://github.com/stactools-packages/ga-dlcd)|None
    [gap](https://github.com/stactools-packages/gap)|stactools package for working with USGS Gap Analysis Project (GAP) data
+   [ghcnd](https://github.com/stactools-packages/ghcnd)|None
    [goes](https://github.com/stactools-packages/goes)|stactools package for working with NOAA's GOES data
    [gpw](https://github.com/stactools-packages/gpw)|stactools package for handling the Gridded Population of the World dataset
    [hwsd](https://github.com/stactools-packages/hwsd)|The Harmonized World Soil Database
@@ -55,4 +56,3 @@ Last Updated: Oct 29 00:28  2021 UTC.
    [seabed-2030](https://github.com/stactools-packages/seabed-2030)|None
    [sentinel1](https://github.com/stactools-packages/sentinel1)|stactools package for working with sentinel1 data
    [sentinel1-grd](https://github.com/stactools-packages/sentinel1-grd)|None
-   [sentinel2](https://github.com/stactools-packages/sentinel2)|stactools package for Sentinel-2

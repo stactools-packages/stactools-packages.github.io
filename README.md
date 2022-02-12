@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Feb 11 00:36  2022 UTC.
+Last Updated: Feb 12 00:36  2022 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -34,6 +34,7 @@ Last Updated: Feb 11 00:36  2022 UTC.
    [cgls_lc100](https://github.com/stactools-packages/cgls_lc100)|stactools package for working with Copernicus Global Land Cover Layers data.
    [cop-dem](https://github.com/stactools-packages/cop-dem)|stactools package for working with Copernicus DEM data
    [corine](https://github.com/stactools-packages/corine)|stactools package for working with CORINE data.
+   [ecmwf-forecast](https://github.com/stactools-packages/ecmwf-forecast)|None
    [ga-dlcd](https://github.com/stactools-packages/ga-dlcd)|None
    [gap](https://github.com/stactools-packages/gap)|stactools package for working with USGS Gap Analysis Project (GAP) data
    [ghcnd](https://github.com/stactools-packages/ghcnd)|None
@@ -55,4 +56,3 @@ Last Updated: Feb 11 00:36  2022 UTC.
    [nrcan-spot-ortho](https://github.com/stactools-packages/nrcan-spot-ortho)|stactools package for working with SPOT data
    [planet](https://github.com/stactools-packages/planet)|stactools package for working with Planet data
    [pointcloud](https://github.com/stactools-packages/pointcloud)|stactools package for working with pointcloud files
-   [seabed-2030](https://github.com/stactools-packages/seabed-2030)|None

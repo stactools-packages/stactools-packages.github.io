@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Apr 07 00:46  2022 UTC.
+Last Updated: Apr 08 00:46  2022 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -36,6 +36,7 @@ Last Updated: Apr 07 00:46  2022 UTC.
    [cop-dem](https://github.com/stactools-packages/cop-dem)|stactools package for working with Copernicus DEM data
    [corine](https://github.com/stactools-packages/corine)|stactools package for working with CORINE data.
    [ecmwf-forecast](https://github.com/stactools-packages/ecmwf-forecast)|None
+   [esa-worldcover](https://github.com/stactools-packages/esa-worldcover)|None
    [ga-dlcd](https://github.com/stactools-packages/ga-dlcd)|None
    [gap](https://github.com/stactools-packages/gap)|stactools package for working with USGS Gap Analysis Project (GAP) data
    [ghcnd](https://github.com/stactools-packages/ghcnd)|None
@@ -55,4 +56,3 @@ Last Updated: Apr 07 00:46  2022 UTC.
    [nrcan-landcover](https://github.com/stactools-packages/nrcan-landcover)|Collection of Land Cover products for Canada as produced by NRCan
    [nrcan-radarsat1](https://github.com/stactools-packages/nrcan-radarsat1)|None
    [nrcan-spot-ortho](https://github.com/stactools-packages/nrcan-spot-ortho)|stactools package for working with SPOT data
-   [planet](https://github.com/stactools-packages/planet)|stactools package for working with Planet data

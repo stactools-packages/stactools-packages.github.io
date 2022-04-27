@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Apr 26 00:52  2022 UTC.
+Last Updated: Apr 27 00:58  2022 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -33,6 +33,7 @@ Last Updated: Apr 26 00:52  2022 UTC.
    [browse](https://github.com/stactools-packages/browse)|stactools package for opening a STAC catalog with stac-browser
    [can-flood](https://github.com/stactools-packages/can-flood)|None
    [cgls_lc100](https://github.com/stactools-packages/cgls_lc100)|stactools package for working with Copernicus Global Land Cover Layers data.
+   [chesapeake-lulc](https://github.com/stactools-packages/chesapeake-lulc)|Chesapeake Conservancy Land Cover
    [cop-dem](https://github.com/stactools-packages/cop-dem)|stactools package for working with Copernicus DEM data
    [corine](https://github.com/stactools-packages/corine)|stactools package for working with CORINE data.
    [ecmwf-forecast](https://github.com/stactools-packages/ecmwf-forecast)|None
@@ -55,4 +56,3 @@ Last Updated: Apr 26 00:52  2022 UTC.
    [noaa-sst](https://github.com/stactools-packages/noaa-sst)|None
    [nrcan-landcover](https://github.com/stactools-packages/nrcan-landcover)|Collection of Land Cover products for Canada as produced by NRCan
    [nrcan-radarsat1](https://github.com/stactools-packages/nrcan-radarsat1)|None
-   [nrcan-spot-ortho](https://github.com/stactools-packages/nrcan-spot-ortho)|stactools package for working with SPOT data

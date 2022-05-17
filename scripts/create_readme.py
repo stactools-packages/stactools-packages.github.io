@@ -16,7 +16,7 @@ def get_repos() -> list:
     """
     try:
         with requests.get(
-                "https://api.github.com/users/stactools-packages/repos"
+                "https://api.github.com/users/stactools-packages/repos?per_page=1000"
         ) as site:
             data = site.json()
     except error as e:

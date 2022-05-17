@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: May 17 00:52  2022 UTC.
+Last Updated: May 17 11:59  2022 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -56,3 +56,23 @@ Last Updated: May 17 00:52  2022 UTC.
    [noaa-climate-normals](https://github.com/stactools-packages/noaa-climate-normals)|stactools package for NOAA's climate normals dataset
    [noaa-sst](https://github.com/stactools-packages/noaa-sst)|None
    [nrcan-landcover](https://github.com/stactools-packages/nrcan-landcover)|Collection of Land Cover products for Canada as produced by NRCan
+   [nrcan-radarsat1](https://github.com/stactools-packages/nrcan-radarsat1)|None
+   [nrcan-spot-ortho](https://github.com/stactools-packages/nrcan-spot-ortho)|stactools package for working with SPOT data
+   [palsar](https://github.com/stactools-packages/palsar)|stactools package for working with PALSAR data 
+   [planet](https://github.com/stactools-packages/planet)|stactools package for working with Planet data
+   [pointcloud](https://github.com/stactools-packages/pointcloud)|stactools package for working with pointcloud files
+   [seabed-2030](https://github.com/stactools-packages/seabed-2030)|None
+   [sentinel1](https://github.com/stactools-packages/sentinel1)|stactools package for working with sentinel1 data
+   [sentinel1-grd](https://github.com/stactools-packages/sentinel1-grd)|None
+   [sentinel2](https://github.com/stactools-packages/sentinel2)|stactools package for Sentinel-2
+   [sentinel3](https://github.com/stactools-packages/sentinel3)|None
+   [sentinel5p](https://github.com/stactools-packages/sentinel5p)|Stactools package for Sentinel 5P
+   [soilgrids](https://github.com/stactools-packages/soilgrids)|None
+   [stactools-packages.github.io](https://github.com/stactools-packages/stactools-packages.github.io)|None
+   [template](https://github.com/stactools-packages/template)|Template repository for stactools packages
+   [threedep](https://github.com/stactools-packages/threedep)|stactools package for working with elevation data from the USGS 3DEP program (formerly known as NED)
+   [ukcp18](https://github.com/stactools-packages/ukcp18)|None
+   [usgs-nlcd](https://github.com/stactools-packages/usgs-nlcd)|None
+   [worldclim](https://github.com/stactools-packages/worldclim)|None
+   [worldhistclim](https://github.com/stactools-packages/worldhistclim)|None
+   [worldpop](https://github.com/stactools-packages/worldpop)|stactools package for working with WorldPop data

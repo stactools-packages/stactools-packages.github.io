@@ -22,13 +22,13 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Jun 27 00:59  2022 UTC.
+Last Updated: Jun 28 00:59  2022 UTC.
 
 | Package | Description |
 | :------ | :---------- |
    [aafc-landuse](https://github.com/stactools-packages/aafc-landuse)|stactools package for working with Agriculture and Agri-Food Canada Land Use data
    [alos-dem](https://github.com/stactools-packages/alos-dem)|stactools package for working with the ALOS Global Digital Surface Model
-   [aster](https://github.com/stactools-packages/aster)|None
+   [aster](https://github.com/stactools-packages/aster)|stactools package for data from the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER)
    [bc-dem](https://github.com/stactools-packages/bc-dem)|None
    [browse](https://github.com/stactools-packages/browse)|stactools package for opening a STAC catalog with stac-browser
    [can-flood](https://github.com/stactools-packages/can-flood)|None
@@ -37,44 +37,44 @@ Last Updated: Jun 27 00:59  2022 UTC.
    [cop-dem](https://github.com/stactools-packages/cop-dem)|stactools package for working with Copernicus DEM data
    [corine](https://github.com/stactools-packages/corine)|stactools package for working with CORINE data.
    [drcog-lulc](https://github.com/stactools-packages/drcog-lulc)|Denver Regional Council of Governments Land Use Land Cover dataset
-   [ecmwf-forecast](https://github.com/stactools-packages/ecmwf-forecast)|None
-   [esa-worldcover](https://github.com/stactools-packages/esa-worldcover)|None
-   [ga-dlcd](https://github.com/stactools-packages/ga-dlcd)|None
+   [ecmwf-forecast](https://github.com/stactools-packages/ecmwf-forecast)|stactools package for ECMWF Open Data - Real Time
+   [esa-worldcover](https://github.com/stactools-packages/esa-worldcover)|stactools package for ESA's 10m resolution global land cover product for the year 2020
+   [ga-dlcd](https://github.com/stactools-packages/ga-dlcd)|stactools package for Geoscience Australia's Dynamic Land Cover Dataset (DLCD)
    [gap](https://github.com/stactools-packages/gap)|stactools package for working with USGS Gap Analysis Project (GAP) data
-   [ghcnd](https://github.com/stactools-packages/ghcnd)|None
-   [gnatsgo](https://github.com/stactools-packages/gnatsgo)|None
+   [ghcnd](https://github.com/stactools-packages/ghcnd)|stactools package for the Global Historical Climatology Network daily (GHCNd) dataset
+   [gnatsgo](https://github.com/stactools-packages/gnatsgo)|stactools package for the USDA's Gridded National Soil Survey Geographic Database (gNATSGO)
    [goes](https://github.com/stactools-packages/goes)|stactools package for working with NOAA's GOES data
    [gpw](https://github.com/stactools-packages/gpw)|stactools package for handling the Gridded Population of the World dataset
    [hwsd](https://github.com/stactools-packages/hwsd)|The Harmonized World Soil Database
    [jrc-gsw](https://github.com/stactools-packages/jrc-gsw)|stactools package for working with the European Commission's Joint Research Centre Global Surface Water data
    [landsat](https://github.com/stactools-packages/landsat)|stactools package for working with LANDSAT data
-   [lila-hkh-glacier](https://github.com/stactools-packages/lila-hkh-glacier)|None
+   [lila-hkh-glacier](https://github.com/stactools-packages/lila-hkh-glacier)|stactools package for the Hindu Kush Himalayas (HKH) glacier mapping dataset
    [modis](https://github.com/stactools-packages/modis)|stactools package for working with MODIS data
    [naip](https://github.com/stactools-packages/naip)|stactools package for working with the USDA's National Airborne Imagery Program data
-   [nalcms](https://github.com/stactools-packages/nalcms)|None
+   [nalcms](https://github.com/stactools-packages/nalcms)|stactools package for the North American Land Change Monitoring System
    [noaa-c-cap](https://github.com/stactools-packages/noaa-c-cap)|Create STAC Items and Collections for NOAA's Coastal Change Analysis Program (C-CAP)
    [noaa-climate-normals](https://github.com/stactools-packages/noaa-climate-normals)|stactools package for NOAA's climate normals dataset
    [noaa-mrms-qpe](https://github.com/stactools-packages/noaa-mrms-qpe)|stactools package for NOAA's Multi-Radar Multi-Sensor Quantitative Precipitation Estimation dataset 
-   [noaa-sst](https://github.com/stactools-packages/noaa-sst)|None
+   [noaa-sst](https://github.com/stactools-packages/noaa-sst)|stactools package for the NOAA Sea Surface Temperature (SST) product
    [nrcan-landcover](https://github.com/stactools-packages/nrcan-landcover)|Collection of Land Cover products for Canada as produced by NRCan
-   [nrcan-radarsat1](https://github.com/stactools-packages/nrcan-radarsat1)|None
+   [nrcan-radarsat1](https://github.com/stactools-packages/nrcan-radarsat1)|stactools packages for the NRCAN Radarsat 1 project
    [nrcan-spot-ortho](https://github.com/stactools-packages/nrcan-spot-ortho)|stactools package for working with SPOT data
    [palsar](https://github.com/stactools-packages/palsar)|stactools package for working with PALSAR data 
    [planet](https://github.com/stactools-packages/planet)|stactools package for working with Planet data
    [pointcloud](https://github.com/stactools-packages/pointcloud)|stactools package for working with pointcloud files
-   [seabed-2030](https://github.com/stactools-packages/seabed-2030)|None
+   [seabed-2030](https://github.com/stactools-packages/seabed-2030)|stactools package for data from the Seabed 2030 project
    [sentinel1](https://github.com/stactools-packages/sentinel1)|stactools package for working with sentinel1 data
-   [sentinel1-grd](https://github.com/stactools-packages/sentinel1-grd)|None
+   [sentinel1-grd](https://github.com/stactools-packages/sentinel1-grd)|stactools package for Sentinel-1 Level-1 Ground Range Detected (GRD) products
    [sentinel2](https://github.com/stactools-packages/sentinel2)|stactools package for Sentinel-2
-   [sentinel3](https://github.com/stactools-packages/sentinel3)|None
+   [sentinel3](https://github.com/stactools-packages/sentinel3)|stactools package for Sentinel-3 data
    [sentinel5p](https://github.com/stactools-packages/sentinel5p)|Stactools package for Sentinel 5P
-   [soilgrids](https://github.com/stactools-packages/soilgrids)|None
-   [stactools-packages.github.io](https://github.com/stactools-packages/stactools-packages.github.io)|None
+   [soilgrids](https://github.com/stactools-packages/soilgrids)|stactools package for the SoilGrids dataset
+   [stactools-packages.github.io](https://github.com/stactools-packages/stactools-packages.github.io)|Dashboard website for the stactools-packages organization
    [template](https://github.com/stactools-packages/template)|Template repository for stactools packages
    [threedep](https://github.com/stactools-packages/threedep)|stactools package for working with elevation data from the USGS 3DEP program (formerly known as NED)
-   [ukcp18](https://github.com/stactools-packages/ukcp18)|None
-   [usgs-nlcd](https://github.com/stactools-packages/usgs-nlcd)|None
-   [viirs](https://github.com/stactools-packages/viirs)|None
-   [worldclim](https://github.com/stactools-packages/worldclim)|None
-   [worldhistclim](https://github.com/stactools-packages/worldhistclim)|None
+   [ukcp18](https://github.com/stactools-packages/ukcp18)|stactools package for UKCP18
+   [usgs-nlcd](https://github.com/stactools-packages/usgs-nlcd)|stactools package for the United States Geological Survey - National Land Cover Database (USGS-NLCD)
+   [viirs](https://github.com/stactools-packages/viirs)|stactools package for data from the Visible Infrared Imaging Radiometer Suite (VIIRS)
+   [worldclim](https://github.com/stactools-packages/worldclim)|stactools package for the WorldClim dataset
+   [worldhistclim](https://github.com/stactools-packages/worldhistclim)|stactools package for the WorldClim dataset
    [worldpop](https://github.com/stactools-packages/worldpop)|stactools package for working with WorldPop data

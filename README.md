@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Jul 11 00:58  2022 UTC.
+Last Updated: Jul 12 01:02  2022 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -45,6 +45,7 @@ Last Updated: Jul 11 00:58  2022 UTC.
    [gnatsgo](https://github.com/stactools-packages/gnatsgo)|stactools package for the USDA's Gridded National Soil Survey Geographic Database (gNATSGO)
    [goes](https://github.com/stactools-packages/goes)|stactools package for working with NOAA's GOES data
    [gpw](https://github.com/stactools-packages/gpw)|stactools package for handling the Gridded Population of the World dataset
+   [hls](https://github.com/stactools-packages/hls)|stactools package for Harmonized Landsat Sentinel-2 (HLS) data
    [hwsd](https://github.com/stactools-packages/hwsd)|The Harmonized World Soil Database
    [jrc-gsw](https://github.com/stactools-packages/jrc-gsw)|stactools package for working with the European Commission's Joint Research Centre Global Surface Water data
    [landsat](https://github.com/stactools-packages/landsat)|stactools package for working with LANDSAT data

@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Aug 08 00:54  2022 UTC.
+Last Updated: Aug 09 01:01  2022 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -55,6 +55,7 @@ Last Updated: Aug 08 00:54  2022 UTC.
    [naip](https://github.com/stactools-packages/naip)|stactools package for working with the USDA's National Airborne Imagery Program data
    [nalcms](https://github.com/stactools-packages/nalcms)|stactools package for the North American Land Change Monitoring System
    [noaa-c-cap](https://github.com/stactools-packages/noaa-c-cap)|Create STAC Items and Collections for NOAA's Coastal Change Analysis Program (C-CAP)
+   [noaa-cdr](https://github.com/stactools-packages/noaa-cdr)|NOAA Climate Data Records (CDR) stactools package
    [noaa-climate-normals](https://github.com/stactools-packages/noaa-climate-normals)|stactools package for NOAA's climate normals dataset
    [noaa-mrms-qpe](https://github.com/stactools-packages/noaa-mrms-qpe)|stactools package for NOAA's Multi-Radar Multi-Sensor Quantitative Precipitation Estimation dataset 
    [noaa-sst](https://github.com/stactools-packages/noaa-sst)|stactools package for the NOAA Sea Surface Temperature (SST) product

@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Sep 23 01:09  2022 UTC.
+Last Updated: Sep 24 01:10  2022 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -38,6 +38,7 @@ Last Updated: Sep 23 01:09  2022 UTC.
    [corine](https://github.com/stactools-packages/corine)|stactools package for working with CORINE data.
    [drcog-lulc](https://github.com/stactools-packages/drcog-lulc)|Denver Regional Council of Governments Land Use Land Cover dataset
    [ecmwf-forecast](https://github.com/stactools-packages/ecmwf-forecast)|stactools package for ECMWF Open Data - Real Time
+   [esa-cci-lc](https://github.com/stactools-packages/esa-cci-lc)|stactools package for ESA's Climate Change Initiative (CCI) Land Cover (LC) product
    [esa-worldcover](https://github.com/stactools-packages/esa-worldcover)|stactools package for ESA's 10m resolution global land cover product for the year 2020
    [ga-dlcd](https://github.com/stactools-packages/ga-dlcd)|stactools package for Geoscience Australia's Dynamic Land Cover Dataset (DLCD)
    [gap](https://github.com/stactools-packages/gap)|stactools package for working with USGS Gap Analysis Project (GAP) data
@@ -57,7 +58,7 @@ Last Updated: Sep 23 01:09  2022 UTC.
    [noaa-c-cap](https://github.com/stactools-packages/noaa-c-cap)|Create STAC Items and Collections for NOAA's Coastal Change Analysis Program (C-CAP)
    [noaa-cdr](https://github.com/stactools-packages/noaa-cdr)|NOAA Climate Data Records (CDR) stactools package
    [noaa-climate-normals](https://github.com/stactools-packages/noaa-climate-normals)|stactools package for NOAA's climate normals dataset
-   [noaa-gefs](https://github.com/stactools-packages/noaa-gefs)|stactools package for a variety of NOAA's Global Ensemble Forecast System (GEFS) products 
+   [noaa-gefs](https://github.com/stactools-packages/noaa-gefs)|WIP: stactools package for a variety of NOAA's Global Ensemble Forecast System (GEFS) products 
    [noaa-mrms-qpe](https://github.com/stactools-packages/noaa-mrms-qpe)|stactools package for NOAA's Multi-Radar Multi-Sensor Quantitative Precipitation Estimation dataset 
    [noaa-nclimgrid](https://github.com/stactools-packages/noaa-nclimgrid)|NOAA NClimGrid stactools package
    [noaa-sst](https://github.com/stactools-packages/noaa-sst)|stactools package for the NOAA Sea Surface Temperature (SST) product

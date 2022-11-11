@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Nov 10 01:00  2022 UTC.
+Last Updated: Nov 11 01:03  2022 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -68,7 +68,6 @@ Last Updated: Nov 10 01:00  2022 UTC.
    [nrcan-spot-ortho](https://github.com/stactools-packages/nrcan-spot-ortho)|stactools package for working with SPOT data
    [palsar](https://github.com/stactools-packages/palsar)|stactools package for working with PALSAR data 
    [planet](https://github.com/stactools-packages/planet)|stactools package for working with Planet data
-   [PlanetaryComputerDataCatalog](https://github.com/stactools-packages/PlanetaryComputerDataCatalog)|Data catalog for the Microsoft Planetary Computer
    [pointcloud](https://github.com/stactools-packages/pointcloud)|stactools package for working with pointcloud files
    [seabed-2030](https://github.com/stactools-packages/seabed-2030)|stactools package for data from the Seabed 2030 project
    [sentinel1](https://github.com/stactools-packages/sentinel1)|stactools package for working with sentinel1 data

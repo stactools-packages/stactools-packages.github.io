@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Dec 07 00:51  2022 UTC.
+Last Updated: Dec 08 00:47  2022 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -80,6 +80,7 @@ Last Updated: Dec 07 00:51  2022 UTC.
    [template](https://github.com/stactools-packages/template)|Template repository for stactools packages
    [threedep](https://github.com/stactools-packages/threedep)|stactools package for working with elevation data from the USGS 3DEP program (formerly known as NED)
    [ukcp18](https://github.com/stactools-packages/ukcp18)|stactools package for UKCP18
+   [usda-cdl](https://github.com/stactools-packages/usda-cdl)|USDA Cropland Data Layer
    [usgs-nlcd](https://github.com/stactools-packages/usgs-nlcd)|stactools package for the United States Geological Survey - National Land Cover Database (USGS-NLCD)
    [viirs](https://github.com/stactools-packages/viirs)|stactools package for data from the Visible Infrared Imaging Radiometer Suite (VIIRS)
    [worldclim](https://github.com/stactools-packages/worldclim)|stactools package for the WorldClim dataset

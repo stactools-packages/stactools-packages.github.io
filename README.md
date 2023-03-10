@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Mar 09 00:53  2023 UTC.
+Last Updated: Mar 10 00:53  2023 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -36,6 +36,7 @@ Last Updated: Mar 09 00:53  2023 UTC.
    [chesapeake-lulc](https://github.com/stactools-packages/chesapeake-lulc)|Chesapeake Conservancy Land Cover
    [cop-dem](https://github.com/stactools-packages/cop-dem)|stactools package for working with Copernicus DEM data
    [corine](https://github.com/stactools-packages/corine)|stactools package for working with CORINE data.
+   [datacube](https://github.com/stactools-packages/datacube)|None
    [drcog-lulc](https://github.com/stactools-packages/drcog-lulc)|Denver Regional Council of Governments Land Use Land Cover dataset
    [ecmwf-forecast](https://github.com/stactools-packages/ecmwf-forecast)|stactools package for ECMWF Open Data - Real Time
    [esa-cci-lc](https://github.com/stactools-packages/esa-cci-lc)|stactools package for ESA's Climate Change Initiative (CCI) Land Cover (LC) product

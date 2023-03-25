@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Mar 24 00:46  2023 UTC.
+Last Updated: Mar 25 00:44  2023 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -40,7 +40,7 @@ Last Updated: Mar 24 00:46  2023 UTC.
    [drcog-lulc](https://github.com/stactools-packages/drcog-lulc)|Denver Regional Council of Governments Land Use Land Cover dataset
    [ecmwf-forecast](https://github.com/stactools-packages/ecmwf-forecast)|stactools package for ECMWF Open Data - Real Time
    [esa-cci-lc](https://github.com/stactools-packages/esa-cci-lc)|stactools package for ESA's Climate Change Initiative (CCI) Land Cover (LC) product
-   [esa-worldcover](https://github.com/stactools-packages/esa-worldcover)|stactools package for ESA's 10m resolution global land cover product for the year 2020
+   [esa-worldcover](https://github.com/stactools-packages/esa-worldcover)|stactools package for ESA's 10m resolution global land cover product
    [fws-nwi](https://github.com/stactools-packages/fws-nwi)|stactools package for the National Wetlands Inventory (NWI) product provided by the U.S. Fish and Wildlife Service (FWS)
    [ga-dlcd](https://github.com/stactools-packages/ga-dlcd)|stactools package for Geoscience Australia's Dynamic Land Cover Dataset (DLCD)
    [gap](https://github.com/stactools-packages/gap)|stactools package for working with USGS Gap Analysis Project (GAP) data

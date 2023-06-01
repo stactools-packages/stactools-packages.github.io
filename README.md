@@ -22,12 +22,13 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: May 31 00:53  2023 UTC.
+Last Updated: Jun 01 01:03  2023 UTC.
 
 | Package | Description |
 | :------ | :---------- |
    [aafc-landuse](https://github.com/stactools-packages/aafc-landuse)|stactools package for working with Agriculture and Agri-Food Canada Land Use data
    [alos-dem](https://github.com/stactools-packages/alos-dem)|stactools package for working with the ALOS Global Digital Surface Model
+   [amazonia-1](https://github.com/stactools-packages/amazonia-1)|Amazonia-1 stactools package
    [aster](https://github.com/stactools-packages/aster)|stactools package for data from the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER)
    [bc-dem](https://github.com/stactools-packages/bc-dem)|None
    [browse](https://github.com/stactools-packages/browse)|stactools package for opening a STAC catalog with stac-browser

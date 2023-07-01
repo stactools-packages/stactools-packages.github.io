@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Jun 30 00:55  2023 UTC.
+Last Updated: Jul 01 01:03  2023 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -45,6 +45,7 @@ Last Updated: Jun 30 00:55  2023 UTC.
    [fws-nwi](https://github.com/stactools-packages/fws-nwi)|stactools package for the National Wetlands Inventory (NWI) product provided by the U.S. Fish and Wildlife Service (FWS)
    [ga-dlcd](https://github.com/stactools-packages/ga-dlcd)|stactools package for Geoscience Australia's Dynamic Land Cover Dataset (DLCD)
    [gap](https://github.com/stactools-packages/gap)|stactools package for working with USGS Gap Analysis Project (GAP) data
+   [geoparquet-items](https://github.com/stactools-packages/geoparquet-items)|Uses stac-geoparquet to generate a geoparquet for a list of STAC items
    [ghcnd](https://github.com/stactools-packages/ghcnd)|stactools package for the Global Historical Climatology Network daily (GHCNd) dataset
    [gnatsgo](https://github.com/stactools-packages/gnatsgo)|stactools package for the USDA's Gridded National Soil Survey Geographic Database (gNATSGO)
    [goes](https://github.com/stactools-packages/goes)|stactools package for working with NOAA's GOES data

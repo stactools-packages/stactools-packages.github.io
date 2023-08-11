@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Aug 10 00:48  2023 UTC.
+Last Updated: Aug 11 00:37  2023 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -33,6 +33,7 @@ Last Updated: Aug 10 00:48  2023 UTC.
    [bc-dem](https://github.com/stactools-packages/bc-dem)|None
    [browse](https://github.com/stactools-packages/browse)|stactools package for opening a STAC catalog with stac-browser
    [can-flood](https://github.com/stactools-packages/can-flood)|None
+   [canelevation](https://github.com/stactools-packages/canelevation)|None
    [cgls_lc100](https://github.com/stactools-packages/cgls_lc100)|stactools package for working with Copernicus Global Land Cover Layers data.
    [chesapeake-lulc](https://github.com/stactools-packages/chesapeake-lulc)|Chesapeake Conservancy Land Cover
    [cop-dem](https://github.com/stactools-packages/cop-dem)|stactools package for working with Copernicus DEM data

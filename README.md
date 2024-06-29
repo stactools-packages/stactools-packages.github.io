@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Jun 28 00:45  2024 UTC.
+Last Updated: Jun 29 00:44  2024 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -67,6 +67,7 @@ Last Updated: Jun 28 00:45  2024 UTC.
    [noaa-cdr](https://github.com/stactools-packages/noaa-cdr)|NOAA Climate Data Records (CDR) stactools package
    [noaa-climate-normals](https://github.com/stactools-packages/noaa-climate-normals)|NOAA US Climate Normals stactools package
    [noaa-gefs](https://github.com/stactools-packages/noaa-gefs)|WIP: stactools package for a variety of NOAA's Global Ensemble Forecast System (GEFS) products 
+   [noaa-hrrr](https://github.com/stactools-packages/noaa-hrrr)|NOAA High-Resolution Rapid Refresh (HRRR) stactools package
    [noaa-mrms-qpe](https://github.com/stactools-packages/noaa-mrms-qpe)|stactools package for NOAA's Multi-Radar Multi-Sensor Quantitative Precipitation Estimation dataset 
    [noaa-nclimgrid](https://github.com/stactools-packages/noaa-nclimgrid)|NOAA NClimGrid stactools package
    [noaa-nwm](https://github.com/stactools-packages/noaa-nwm)|None

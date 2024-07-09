@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Jul 08 00:48  2024 UTC.
+Last Updated: Jul 09 00:46  2024 UTC.
 
 | Package | Description |
 | :------ | :---------- |

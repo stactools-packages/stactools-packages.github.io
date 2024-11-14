@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Nov 13 00:54  2024 UTC.
+Last Updated: Nov 14 00:54  2024 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -49,7 +49,7 @@ Last Updated: Nov 13 00:54  2024 UTC.
    [gap](https://github.com/stactools-packages/gap)|stactools package for working with USGS Gap Analysis Project (GAP) data
    [geoparquet-items](https://github.com/stactools-packages/geoparquet-items)|Uses stac-geoparquet to generate a geoparquet for a list of STAC items
    [ghcnd](https://github.com/stactools-packages/ghcnd)|stactools package for the Global Historical Climatology Network daily (GHCNd) dataset
-   [glad-glulc2020](https://github.com/stactools-packages/glad-glulc2020)|The GLAD Global Land Cover and Land Use Change dataset quantifies changes in forest extent and height, cropland, built-up lands, surface water, and perennial snow and ice extent from the year 2000 to 2020 at 30-m spatial resolution.
+   [glad-glclu2020](https://github.com/stactools-packages/glad-glclu2020)|The GLAD Global Land Cover and Land Use Change dataset quantifies changes in forest extent and height, cropland, built-up lands, surface water, and perennial snow and ice extent from the year 2000 to 2020 at 30-m spatial resolution.
    [gnatsgo](https://github.com/stactools-packages/gnatsgo)|stactools package for the USDA's Gridded National Soil Survey Geographic Database (gNATSGO)
    [goes](https://github.com/stactools-packages/goes)|stactools package for working with NOAA's GOES data
    [goes-glm](https://github.com/stactools-packages/goes-glm)|stactools package for the Geostationary Lightning Mapper (GLM) on the GOES satellites

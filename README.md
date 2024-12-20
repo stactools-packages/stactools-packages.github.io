@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Dec 19 00:58  2024 UTC.
+Last Updated: Dec 20 00:55  2024 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -76,6 +76,7 @@ Last Updated: Dec 19 00:58  2024 UTC.
    [nrcan-landcover](https://github.com/stactools-packages/nrcan-landcover)|Collection of Land Cover products for Canada as produced by NRCan
    [nrcan-radarsat1](https://github.com/stactools-packages/nrcan-radarsat1)|stactools packages for the NRCAN Radarsat 1 project
    [nrcan-spot-ortho](https://github.com/stactools-packages/nrcan-spot-ortho)|stactools package for working with SPOT data
+   [overture-maps](https://github.com/stactools-packages/overture-maps)|stactools package for the Overture Maps dataset
    [palsar](https://github.com/stactools-packages/palsar)|stactools package for working with PALSAR data 
    [palsar2-scansar](https://github.com/stactools-packages/palsar2-scansar)|stactools package for working with PALSAR-2 ScanSAR data
    [planet](https://github.com/stactools-packages/planet)|stactools package for working with Planet data

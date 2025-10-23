@@ -22,7 +22,7 @@ to get a sense of what has emerged from other people using the specification.
 
 The definitive list of STAC Packages are the repositories in the [Organization](https://github.com/stactools-packages). This list is automagically populated once a day.
 
-Last Updated: Oct 22 01:03  2025 UTC.
+Last Updated: Oct 23 01:01  2025 UTC.
 
 | Package | Description |
 | :------ | :---------- |
@@ -61,6 +61,7 @@ Last Updated: Oct 22 01:03  2025 UTC.
    [jrc-gsw](https://github.com/stactools-packages/jrc-gsw)|stactools package for working with the European Commission's Joint Research Centre Global Surface Water data
    [landsat](https://github.com/stactools-packages/landsat)|stactools package for working with LANDSAT data
    [lila-hkh-glacier](https://github.com/stactools-packages/lila-hkh-glacier)|stactools package for the Hindu Kush Himalayas (HKH) glacier mapping dataset
+   [met-office-deterministic](https://github.com/stactools-packages/met-office-deterministic)|Python package for generating STAC metadata for the Met Office Deterministic Numerical Weather Prediction model
    [modis](https://github.com/stactools-packages/modis)|stactools package for working with MODIS data
    [msbuildings](https://github.com/stactools-packages/msbuildings)|None
    [naip](https://github.com/stactools-packages/naip)|stactools package for working with the USDA's National Agriculture Imagery Program data
